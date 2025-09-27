@@ -12,7 +12,7 @@ body{
 	
 }
 .book{
-	/* background-color:#777777; */
+	background-color:rgb(150, 150, 150);
 	
       margin-bottom: 10px;
       padding-bottom: 20px;
@@ -26,12 +26,15 @@ body{
 	.book-details{
 		display:block;
 		margin:0;
+		h2{
+			color:rgb(119, 119, 119);
+		}
 		h2,p{
 		margin:0;
 		padding: 2px 5px;
 	}
 	p{
-		color: #777777;
+		color:rgb(255, 255, 255);
 	}
 		
 	}
@@ -39,7 +42,7 @@ body{
 .price{
 	margin:0px 5px;
 	border-radius:6px;
-	background-color: #2ecc71;
+	background-color: rgb(46, 204, 113);
 	color: #ffffff;
 	text-align:center;
 }
