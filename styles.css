@@ -5,14 +5,14 @@ body{
 .book-library{
 	background-color:#ffffff;
 	width:500px;
-	h2{
+	h1{
 		text-align:center;
 		margin-top:5px;
 	}
 	
 }
 .book{
-	background-color:#777777;
+	/* background-color:#777777; */
 	
       margin-bottom: 10px;
       padding-bottom: 20px;
@@ -22,22 +22,24 @@ body{
 		margin-top:5px;
 		
 	}
-	h3,p{
+	
+	.book-details{
+		display:block;
+		margin:0;
+		h2,p{
 		margin:0;
 		padding: 2px 5px;
 	}
 	p{
-		color:#d1d1d1;
+		color: #777777;
 	}
-	.book-details{
-		display:block;
-		margin:0;
 		
 	}
 }
 .price{
 	margin:0px 5px;
 	border-radius:6px;
-	background-color:#2ecc71;
+	background-color: #2ecc71;
+	color: #ffffff;
 	text-align:center;
 }
