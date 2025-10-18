@@ -18,15 +18,7 @@ h1{
 	.book-details{
 	display:block;
 	margin:0;	
-.price {
-  margin: 10px auto 0;
-  border-radius: 6px;
-  background-color: #2ecc71;
-  color: #ffffff;
-  text-align: center;
-  padding: 5px 10px;
-  width: fit-content;
-}
+
 		
 	}
 h2,p{
@@ -45,3 +37,12 @@ img{
 	margin-top:5px;
 		
 	}
+.price {
+  margin: 10px auto 0;
+  border-radius: 6px;
+  background-color: #2ecc71;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 10px;
+  width: fit-content;
+}
