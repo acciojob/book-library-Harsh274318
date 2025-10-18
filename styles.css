@@ -4,41 +4,20 @@ body{
 }
 .book-library{
 	background-color:#ffffff;
-	width:500px;
-	h1{
-		text-align:center;
-		margin-top:5px;
-	}
-	
+	width:500px;	
 }
+h1{
+	text-align:center;
+	margin-top:5px;
+	}
 .book{
 	background-color:rgb(150, 150, 150);
-	
-      margin-bottom: 10px;
-      padding-bottom: 20px;
-	img{
-		width:120px;
-		margin-left:190px;
-		margin-top:5px;
-		
-	}
-	
-	.book-details{
-		display:block;
-		margin:0;
-		h2{
-			color:rgb(119, 119, 119);
-		}
-		h2,p{
-		margin:0;
-		padding: 2px 5px;
-	}
-	p{
-		color:rgb(255, 255, 255);
-	}
-		
-	}
+    margin-bottom: 10px;
+    padding-bottom: 20px;
 }
+	.book-details{
+	display:block;
+	margin:0;	
 .price {
   margin: 10px auto 0;
   border-radius: 6px;
@@ -48,3 +27,21 @@ body{
   padding: 5px 10px;
   width: fit-content;
 }
+		
+	}
+h2,p{
+    padding: 2px 5px;
+	margin:0;
+	}
+p{
+	color:rgb(255, 255, 255);
+	}
+h2{
+	color:rgb(119, 119, 119);
+	}
+img{
+	width:120px;
+	margin-left:190px;
+	margin-top:5px;
+		
+	}
