@@ -1,1 +1,37 @@
 //your JS code here. If required.
+/*  your css code here. If applicable */
+.book-library{
+	background-color:#ffffff;
+text-align:box-shadow;
+}
+
+body{
+	background-color:#f8f8f8;
+	text-align:center;
+	justify-content: center;
+} 
+.book{
+	height:350;
+	width:800px;
+	background-color:#ffffff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding:15px;
+	margin:15px;
+	
+}
+.author,p,h2{
+	color: #777777; 
+	text-align:left;
+	margin-left: 25px;;
+	
+}
+.price-tag{
+	color: white;
+	width:750px;
+	background-color:#2ecc71;
+	margin:30px;
+	}
+
+.head{
+	text-align:center;
+	width:800px;
